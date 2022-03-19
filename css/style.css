@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.wrap {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.wrap div {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background: blue;
+}
+
+.wrap2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+    flex-wrap: wrap;
+}
+.wrap2 div {
+    background: red;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+}
